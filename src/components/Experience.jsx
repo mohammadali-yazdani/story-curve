@@ -22,7 +22,6 @@ export function Experience() {
       <ambientLight intensity={1} />
       <OrbitControls
         enableZoom={false}
-        enableRotate={false}
         touches={{
           ONE: TOUCH.PAN,
           TWO: TOUCH.ROTATE,
